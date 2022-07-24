@@ -1,5 +1,5 @@
-1. delete ./.git/refs/original directory (if it exists)
-2. copy / paste the following code into your project terminal, replacing `OLD_EMAIL`, `CORRECT_NAME` and `CORRECT_EMAIL` with your target values
+1. delete `./.git/refs/original` directory (if it exists)
+2. copy/paste the following code into your project terminal, replacing `OLD_EMAIL`, `CORRECT_NAME` and `CORRECT_EMAIL` with your target values
 
 ```bash
 git filter-branch --env-filter '
